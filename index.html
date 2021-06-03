@@ -1,0 +1,125 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src=""></script>
+</head>
+
+<body>
+    <h1>Welcome to my Photo Gallery</h1>
+    <img id="Logo" src="Cars_logo.png">
+    <h2>Grid Gallery</h2>
+    <div class="cars">
+        <img src="Dinico%20Cars.png">
+        <img src="Doc%20hudson.jpg">
+        <img src="cars3.webp">
+        <img src="Flo.jpg">
+        <img src="Chick%20hicks.webp">
+        <img src="Mcqueen.jpg">
+        <img src="Mack.jpg">
+        <img src="Luig.webp">
+        <img src="Guido.webp">
+    </div>
+    <h3>Sliding Gallery</h3>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <img class="img-responsive" src="Dinico%20Cars.png">
+                    <div class="carousel-content">
+                        <p>Dinico</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Doc%20hudson.jpg">
+                    <div class="carousel-content">
+                        <p>Doc hudson</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="cars3.webp">
+                    <div class="carousel-content">
+                        <p>Fill more</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Flo.jpg">
+                    <div class="carousel-content">
+                        <p>Flo</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Chick%20hicks.webp">
+                    <div class="carousel-content">
+                        <p>Chik hiks</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Mcqueen.jpg">
+                    <div class="carousel-content">
+                        <p>Lightning MQqueen</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Mack.jpg">
+                    <div class="carousel-content">
+                        <p>Mack</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Luig.webp">
+                    <div class="carousel-content">
+                        <p>Luigi</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="Guido.webp">
+                    <div class="carousel-content">
+                        <p>Guido</p>
+                    </div>
+                </center>
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+                <li data-target="#mycarousel" data-slide-to="4"></li>
+                <li data-target="#mycarousel" data-slide-to="5"></li>
+                <li data-target="#mycarousel" data-slide-to="6"></li>
+                <li data-target="#mycarousel" data-slide-to="7"></li>
+                <li data-target="#mycarousel" data-slide-to="8"></li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

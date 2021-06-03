@@ -1,0 +1,15 @@
+#Cars_logo{
+width: 800px;
+height: 53px;
+}
+img{
+vertical-align: middle;
+border: 0;
+box-sizing: border-box;
+}
+body{
+font-family: sans-serif;
+line-height: 2px;
+color: aqua;
+text-align: center;
+}
